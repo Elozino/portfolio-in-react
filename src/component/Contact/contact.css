@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+.illustration {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #131127;
+    box-shadow: 0px -2px 20px #D6FCFF;
+    padding: 60px 85px;
+    color: #D6FCFF;
+}
+
+.collaboration{
+    width: 50%;
+}
+
+.collaboration-image img{
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 30px;
+}
+
+.collaboration h2{
+    margin-bottom: 20px;
+}
+
+bg > div{
+    margin-top: 20px;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 7px;
+    margin-top: 7px;
+    background-color: #D6FCFF;
+    border-radius: 5px;
+    border: none;
+}
+
+.contact-btn{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #D6FCFF;
+    color: #131127;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 786px) {
+    .illustration{
+        flex-wrap: wrap;
+        padding: 60px 45px;
+    }
+    .collaboration{
+        width: 100%;
+    }
+}

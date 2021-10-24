@@ -1,0 +1,92 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  background-color: blueviolet;
+  padding: 0px 70px;
+  width: 100%;
+}
+
+header img {
+  object-fit: contain;
+  width: 20vw;
+}
+
+.header-nav ul {
+  list-style: none;
+  display: inline-flex;
+}
+
+.header-nav ul li {
+  margin: 0 10px;
+}
+
+.header-nav ul li a {
+  text-decoration: none;
+  color: #d6fcff;
+}
+
+.mobile-nav {
+  display: none;
+}
+
+.react-icons {
+  font-size: 25px;
+  color: #d6fcff;
+  background-color: none;
+}
+
+@media screen and (max-width: 786px) {
+  header {
+    padding: 0px 40px;
+  }
+  header img {
+    width: 35vw;
+  }
+  .header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 70px;
+    left: -100%;
+    height: calc(100vh - 70px);
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+  .header-nav.active {
+    background: #1c2237;
+    left: 0;
+    opacity: 1;
+    transition: all 0.6s ease;
+    z-index: 1;
+  }
+  .header-nav ul {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    text-align: center;
+  }
+  .header-nav ul li {
+    width: 80%;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px dotted #d6fcff;
+  }
+  .header-nav ul li:hover{
+      background-color: black;
+  }
+  .theme {
+    display: none;
+  }
+  .mobile-nav {
+    display: block;
+    background-color: transparent;
+    border: none;
+  }
+  .react-icons {
+    font-size: 20px;
+  }
+}

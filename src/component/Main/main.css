@@ -1,0 +1,81 @@
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1D1A31;
+    padding: 0px 70px;
+    color: #D6FCFF;
+    height: calc(100vh - 70px);
+}
+
+.main-body{
+    width: 70%;
+    margin-right: 15%;
+    line-height: 2;
+}
+
+.main-body h1{
+    font-size: 5vw;
+}
+
+.main-body h2{
+    font-size: 1.7vw;
+    padding: 5px 0px;
+    font-variant: small-caps;
+}
+
+main a{
+    text-decoration: none;
+}
+
+.main-btn{
+    padding:  7px 15px;
+    border-radius: 0px 10px;
+    color: #D6FCFF;
+    background-color: transparent;
+    border: 1px solid #D6FCFF;
+    cursor: pointer;
+    margin-top: 20px;
+    letter-spacing: 1.5px;
+    font-variant: small-caps;
+    font-weight: 600;
+    box-shadow: 2px 2px 1px 2px rgba(65, 65, 65, 0.7), -2px -2px 30px rgba(0, 0, 0, 0.7);
+}
+main a button:hover{
+    transform: scale(1.12);
+}
+
+main img{
+    object-fit: contain;
+    width: 100%;
+    border: 2px dashed #D6FCFF;
+    border-radius: 10px;
+}
+
+
+@media screen and (max-width: 720px) {
+    main{
+        flex-direction: column-reverse;
+        height: fit-content;
+        padding: 0px 40px;
+    }
+    .main-body{
+        width: 100%;
+        margin-right: 0;
+    }
+    .main-body h1{
+        font-size: 5vw;
+    }
+    
+    .main-body h2{
+        font-size: 3vw;
+    }
+    .main-image{
+        text-align: center;
+        margin: 50px 0;
+    }
+    main img{
+        object-fit: contain;
+        width: 30%;
+    }
+}
