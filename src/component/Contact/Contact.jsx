@@ -5,7 +5,7 @@ import './contact.css'
 function Contact() {
 
     return (
-        <div className="illustration">
+        <div className="illustration" id="contact">
             <div className="collaboration-image">
                 <img src={Art} alt="" width="500px"/>
             </div>

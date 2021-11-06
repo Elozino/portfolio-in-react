@@ -2,6 +2,12 @@
   margin: 0;
   padding: 0;
 }
+
+a{
+  text-decoration: none;
+  color: #d6fcff;
+}
+
 .section {
   padding: 0px 70px;
   background-color: #1d1a31;
@@ -58,10 +64,10 @@
   height: fit-content;
 }
 
-section a {
+/* section a {
   margin-left: auto;
   text-align: end;
-}
+} */
 
 .btn-right {
   text-align: end;

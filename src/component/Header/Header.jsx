@@ -19,10 +19,10 @@ function Header() {
                 </div>
                 <nav className={click ? "header-nav active" : "header-nav"}>
                     <ul>
-                        <li><a href="./Home.jsx">&lt;HOME &#47;&gt;</a></li>
-                        <li><a href="./About.jsx">&lt;ABOUT &#47;&gt;</a></li>
-                        <li><a href="./Project.jsx">&lt;PROJECT &#47;&gt;</a></li>
-                        <li><a href="./Contact.jsx">&lt;CONTACT &#47;&gt;</a></li>
+                        <li><a href="/">&lt;HOME &#47;&gt;</a></li>
+                        <li><a href="#about">&lt;ABOUT &#47;&gt;</a></li>
+                        <li><a href="#project">&lt;PROJECT &#47;&gt;</a></li>
+                        <li><a href="#contact">&lt;CONTACT &#47;&gt;</a></li>
                     </ul>
                 </nav>
                 <button className="mobile-nav" onClick={handleClick}>

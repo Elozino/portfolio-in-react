@@ -5,7 +5,7 @@ import { projectOne, projectThree, projectTwo, projectFour, projectFive, project
 
 function Project() {
     return (
-        <div className="section">
+        <div className="section" id="project">
             <h1>Projects</h1>
             <div className="project-section">
                 <ProjectCard {...projectOne} />

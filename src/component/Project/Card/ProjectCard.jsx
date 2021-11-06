@@ -1,11 +1,11 @@
 import React from 'react'
 
 function ProjectLayout({
-    projectName, projectDesc, projectImage, projectAlt, projectTool
+    projectName, projectDesc, projectImage, projectAlt, projectTool, liveSite
 }) {
 
     return (
-        <section>
+        <a href={liveSite} target="_blank" rel="noreferrer" style={{"text-decoration": "white"}}>
             <div className="project-card">
                 <img src={projectImage} alt={projectAlt} />
                 <div className="project-description">
@@ -20,7 +20,7 @@ function ProjectLayout({
                     <p>{projectDesc}</p>
                 </div>
             </div>
-        </section>
+        </a>
     )
 }
 

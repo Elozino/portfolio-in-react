@@ -7,14 +7,16 @@ export const projectOne = {
     projectTool: 'HTML',
     projectDesc: 'In God I trust',
     projectImage: roomHomepage,
-    projectAlt: 'room-homepage'
+    projectAlt: 'room-homepage',
+    liveSite: "https://elozino.github.io/room-homepage/"
 }
 export const projectTwo = {
     projectName: 'Project Title',
     projectTool: 'HTML',
     projectDesc: 'In God I trust',
     projectImage: sunshine,
-    projectAlt: 'Sunshine'
+    projectAlt: 'Sunshine',
+    liveSite: "https://www.google.com/"
 }
 export const projectThree = {
     projectName: 'Huddle',
