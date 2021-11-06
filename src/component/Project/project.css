@@ -10,8 +10,7 @@ a{
 
 .section {
   padding: 0px 70px;
-  background-color: #1d1a31;
-  color: #d6fcff;
+
   padding-bottom: 50px;
 }
 
@@ -23,7 +22,7 @@ a{
 
 .project-card {
   border-radius: 10px;
-  background-color: #000000c4;
+  background-color: #272626c4;
   flex: 1;
   margin-top: 50px;
 }
@@ -59,7 +58,7 @@ a{
   font-size: 0.4rem;
   padding: 0.1rem 0.4rem;
   margin-left: 5px;
-  background-color: #0202ff;
+  background-color: #35353b;
   border-radius: 10px;
   height: fit-content;
 }

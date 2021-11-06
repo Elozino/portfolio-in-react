@@ -4,6 +4,7 @@ import Project from "./component/Project/Project";
 import Contact from "./component/Contact/Contact";
 import Footer from "./component/Footer/Footer";
 
+
 function App() {
   return (
     <div className="App">

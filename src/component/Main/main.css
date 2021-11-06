@@ -2,9 +2,7 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #1D1A31;
     padding: 0px 70px;
-    color: #D6FCFF;
     height: calc(100vh - 70px);
 }
 
