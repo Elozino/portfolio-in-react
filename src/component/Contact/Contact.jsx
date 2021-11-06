@@ -16,7 +16,7 @@ function Contact() {
                     sit turpis. Pulvinar arcu augue posuere semper nisl. Nunc, posuere facilisi dignissim sem erat
                     faucibus purus netus. Mi, mattis a, vitae tempus in donec nisl, tempus, nunc.
                 </p> */}
-                <form method="GET" action="mailto:ovedhe@gmail.com" className="bg">
+                <form action="mailto:ovedhe@gmail.com" className="bg">
                     <div>
                         <label>Name</label><br />
                         <input type="text" name="" id="" />
