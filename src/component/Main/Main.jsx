@@ -7,11 +7,10 @@ function Main() {
         <main>
             <div className="main-body">
                 <h1>Hello 👋🏽</h1>
-                <h2>Welcome to my page where i bring live to asthetic design</h2>
-                <p>I am a developer with major in frontend with UI/UX perequistes. I am a figma explorer and i am
-                    from
-                    Nigeria.
-                    I am open to offers and would love to work on products that brings value.
+                <h2>Welcome to my page where I bring live to aesthetic design</h2>
+                <p>I am a front-end developer who loves bringing life to aesthetics. 
+                A tech enthusiast with curiosity to problem analysis and solving through learning, unlearning, and relearning. 
+                I am open to offers and would love to work on products that bring value.
                 </p>
                 <a href="https://drive.google.com/file/d/1QygqB7JyiDxfuov_hSmZ_HB6GS2cohzK/view?usp=sharing" download="Elozino's CV">
                     <button className="main-btn">DOWNLOAD CV</button>
