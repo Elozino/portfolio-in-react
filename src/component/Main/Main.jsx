@@ -13,7 +13,7 @@ function Main() {
                     Nigeria.
                     I am open to offers and would love to work on products that brings value.
                 </p>
-                <a href="./ElozinoResume.pdf" rel="noopener noreferrer" download="Elozino's CV" >
+                <a href="https://drive.google.com/file/d/1QygqB7JyiDxfuov_hSmZ_HB6GS2cohzK/view?usp=sharing" download="Elozino's CV">
                     <button className="main-btn">DOWNLOAD CV</button>
                 </a>
             </div>
