@@ -51,7 +51,7 @@ input, textarea{
 @media screen and (max-width: 786px) {
     .illustration{
         flex-wrap: wrap;
-        padding: 60px 45px;
+        padding: 60px 27px;
     }
     .collaboration{
         width: 100%;

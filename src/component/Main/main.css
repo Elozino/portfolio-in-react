@@ -43,6 +43,15 @@ main a button:hover{
     transform: scale(1.12);
 }
 
+.social{
+    margin-top: 20px;
+}
+
+.social *{
+    margin: 0 5px;
+    font-size: 24px;
+}
+
 main img{
     object-fit: contain;
     width: 100%;
@@ -55,7 +64,7 @@ main img{
     main{
         flex-direction: column-reverse;
         height: fit-content;
-        padding: 0px 40px;
+        padding: 0px 27px;
     }
     .main-body{
         width: 100%;
@@ -66,8 +75,15 @@ main img{
     }
     
     .main-body h2{
+        font-size: 4vw;
+    }
+
+    .main-body p{
+        text-align: justify;
+        line-height: 1.6;
         font-size: 3vw;
     }
+
     .main-image{
         text-align: center;
         margin: 50px 0;

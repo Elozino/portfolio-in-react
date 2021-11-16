@@ -94,11 +94,11 @@ a{
 
 @media screen and (max-width: 720px) {
   .section {
-    padding: 50px;
+    padding: 50px 27px;
   }
   .project-card {
     width: 100%;
-    margin: 40px 0;
+    margin: 20px 0;
   }
   .project-title h1 {
     font-size: .7rem;
@@ -107,5 +107,8 @@ a{
     width: 100%;
     object-fit: cover;
     border-radius: 10px;
+  }
+  .btn-right {
+    margin-top: 0;
   }
 }
