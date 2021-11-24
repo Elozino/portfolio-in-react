@@ -7,7 +7,7 @@ import Fylo from '../Assets/huddle.png'
 
 export const projectOne = {
     projectName: 'Room Homepage',
-    projectTool: 'HTML',
+    projectTool: ["HTML", "CSS", "JAVASCRIPT"],
     projectDesc: 'In God I trust',
     projectImage: roomHomepage,
     projectAlt: 'room-homepage',
@@ -15,42 +15,42 @@ export const projectOne = {
 }
 export const projectTwo = {
     projectName: 'Bookmark',
-    projectTool: 'HTML',
+    projectTool: [['HTML', 'CSS', 'JS']],
     projectDesc: 'In God I trust',
     projectImage: bookmark,
-    projectAlt: '',
+    projectAlt: 'bookmaark',
     liveSite: "https://bookmark-landing-page-ecru.vercel.app/"
 }
 export const projectThree = {
     projectName: 'Todo App',
-    projectTool: 'HTML',
+    projectTool: ['HTML', 'CSS', 'JS'],
     projectDesc: 'In God I trust',
     projectImage: TodoList,
-    projectAlt: 'Sunshine',
+    projectAlt: 'todolist',
     liveSite: 'https://todo-list-elozino.vercel.app/'
 }
 export const projectFour = {
     projectName: 'EasyBank',
-    projectTool: 'HTML',
+    projectTool: ['HTML', 'CSS', 'JS'],
     projectDesc: 'In God I trust',
     projectImage: EasyBank,
-    projectAlt: 'Sunshine',
+    projectAlt: 'easybank',
     liveSite: "https://easybank-landing-page-elozino.vercel.app/"
 }
 export const projectFive = {
     projectName: 'Rock Paper Scissors',
-    projectTool: 'HTML',
+    projectTool: ['HTML', 'CSS', 'JS'],
     projectDesc: 'In God I trust',
     projectImage: RockPaperScissors,
-    projectAlt: 'Sunshine',
+    projectAlt: 'rock  paper scissors',
     liveSite: "https://zrock-paper-scissors.netlify.app/"
 }
 export const projectSix = {
     projectName: 'Fylo',
-    projectTool: 'HTML',
+    projectTool: ['HTML'],
     projectDesc: 'In God I trust',
     projectImage: Fylo,
-    projectAlt: 'Sunshine',
+    projectAlt: 'fylo',
     liveSite: "https://fylo-dark-theme-landing-page-elozino.vercel.app/",
     on: "https://grid-testimonial-roan.vercel.app/"
 }

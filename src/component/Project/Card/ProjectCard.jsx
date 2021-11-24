@@ -5,16 +5,16 @@ function ProjectLayout({
 }) {
 
     return (
-        <a href={liveSite} target="_blank" rel="noreferrer" style={{"text-decoration": "white"}}>
+        <a href={liveSite} target="_blank" rel="noreferrer" style={{ "text-decoration": "white" }}>
             <div className="project-card">
                 <img src={projectImage} alt={projectAlt} />
                 <div className="project-description">
                     <div className="project-title">
                         <h1>{projectName}</h1>
                         <ul>
-                            <li>{projectTool}</li>
-                            <li>CSS</li>
-                            <li>JavaScript</li>
+                            {projectTool.map(tool => {
+                                return (<li>{tool}</li>)
+                            })}
                         </ul>
                     </div>
                     <p>{projectDesc}</p>
