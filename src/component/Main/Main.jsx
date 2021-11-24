@@ -8,7 +8,8 @@ function Main() {
     return (
         <main>
             <div className="main-body">
-                <h1>Hello 👋🏽</h1>
+                <p className="greet">Hello 👋🏽</p> 
+                
                 <h2>Welcome to my page where i bring live to aesthetic design</h2>
                 <p>I am a front-end developer who loves bringing life to aesthetics.
                     A tech enthusiast with curiosity to problem analysis and solving through learning, unlearning, and relearning.
@@ -22,8 +23,6 @@ function Main() {
                     <a href="https://twitter.com/iz_zino"> <Icon.SiTwitter /></a>
                     <a href="https://www.linkedin.com/in/elozino-ovedhe-42768915b/"><Icon.SiLinkedin /></a>
                     <a href="mailto:ovedhee@gmail.com"><Icon.SiGmail /></a>
-
-
 
                 </div>
             </div>

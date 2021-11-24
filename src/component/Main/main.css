@@ -10,10 +10,13 @@ main{
     width: 70%;
     margin-right: 15%;
     line-height: 2;
+    color: #bdcdce;
 }
 
-.main-body h1{
+.greet{
     font-size: 5vw;
+    font-weight: 500;
+            
 }
 
 .main-body h2{
@@ -70,7 +73,7 @@ main img{
         width: 100%;
         margin-right: 0;
     }
-    .main-body h1{
+    .main-body .greet{
         font-size: 5vw;
     }
     
