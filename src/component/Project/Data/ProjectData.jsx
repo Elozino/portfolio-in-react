@@ -47,7 +47,7 @@ export const projectFive = {
 }
 export const projectSix = {
     projectName: 'Fylo',
-    projectTool: ['HTML'],
+    projectTool: ['HTML', 'CSS'],
     projectDesc: 'In God I trust',
     projectImage: Fylo,
     projectAlt: 'fylo',
