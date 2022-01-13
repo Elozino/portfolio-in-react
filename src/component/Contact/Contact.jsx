@@ -4,10 +4,10 @@ import Art from "./Open Peeps.png";
 import "./contact.css";
 
 function Contact() {
-  const form = useRef()
-  // const nameRef = useRef();
-  // const emailRef = useRef();
-  // const messageRef = useRef();
+  const form = useRef();
+  const nameRef = useRef();
+  const emailRef = useRef();
+  const messageRef = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -18,8 +18,6 @@ function Contact() {
     //   message: messageRef.current.value,
     //   email: emailRef.current.value,
     // };
-
-    // console.log(form.current);
 
     emailjs
       .sendForm(
@@ -37,9 +35,9 @@ function Contact() {
         }
       );
 
-    // nameRef.current.value = "";
-    // emailRef.current.value = "";
-    // messageRef.current.value = "";
+    nameRef.current.value = "";
+    emailRef.current.value = "";
+    messageRef.current.value = "";
   };
 
   return (
@@ -55,14 +53,12 @@ function Contact() {
           <div>
             <label>Name</label>
             <br />
-            <input type="text" name="from_name" id="from_name" />
-            {/* ref={nameRef} */}
+            <input type="text" name="from_name" id="from_name" ref={nameRef} />
           </div>
           <div>
             <label>Email</label>
             <br />
-            <input type="email" name="email" id="email" />
-            {/* ref={emailRef} */}
+            <input type="email" name="email" id="email" ref={emailRef} />
           </div>
           <div>
             <label>Message</label>
@@ -72,8 +68,8 @@ function Contact() {
               id="message"
               cols="30"
               rows="10"
+              ref={messageRef}
             ></textarea>
-            {/* ref={messageRef} */}
           </div>
           <div>
             <button type="submit" className="contact-btn">
