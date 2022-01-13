@@ -16,7 +16,7 @@
 }
 
 .collaboration-image img{
-    width: 100%;
+    width: 90%;
     object-fit: contain;
     margin-bottom: 30px;
 }
@@ -47,6 +47,12 @@ input, textarea{
     cursor: pointer;
 }
 
+
+@media screen and (max-width: 920px) {
+    .collaboration{
+        width: 70%;
+    }
+}
 
 @media screen and (max-width: 786px) {
     .illustration{
