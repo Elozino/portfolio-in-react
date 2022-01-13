@@ -1,6 +1,6 @@
 import React from 'react'
 import './project.css'
-import ProjectCard from './Card/ProjectCard'
+import ProjectLayout from "./Card/ProjectLayout";
 import { projectOne, projectThree, projectTwo, projectFour, projectFive, projectSix } from './Data/ProjectData'
 
 function Project() {
@@ -8,12 +8,12 @@ function Project() {
         <div className="section" id="project">
             <h1>Projects</h1>
             <div className="project-section">
-                <ProjectCard {...projectOne} />
-                <ProjectCard {...projectTwo} />
-                <ProjectCard {...projectThree} />
-                <ProjectCard {...projectFour} />
-                <ProjectCard {...projectFive}/>
-                <ProjectCard {...projectSix}/>
+                <ProjectLayout {...projectOne} />
+                <ProjectLayout {...projectTwo} />
+                <ProjectLayout {...projectThree} />
+                <ProjectLayout {...projectFour} />
+                <ProjectLayout {...projectFive}/>
+                <ProjectLayout {...projectSix}/>
             </div>
             <div className="btn-right">
                 <a href="./AllProject.jsx">
