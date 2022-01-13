@@ -6,7 +6,7 @@ import { projectOne, projectThree, projectTwo, projectFour, projectFive, project
 function Project() {
     return (
         <div className="section" id="project">
-            <h1>Projects</h1>
+            <h1 className='heading'>Projects</h1>
             <div className="project-section">
                 <ProjectLayout {...projectOne} />
                 <ProjectLayout {...projectTwo} />

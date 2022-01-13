@@ -3,14 +3,13 @@
   padding: 0;
 }
 
-a{
+a {
   text-decoration: none;
   color: #d6fcff;
 }
 
 .section {
   padding: 0px 70px;
-
   padding-bottom: 50px;
 }
 
@@ -101,7 +100,7 @@ a{
     margin: 20px 0;
   }
   .project-title h1 {
-    font-size: .7rem;
+    font-size: 0.7rem;
   }
   .project-card img {
     width: 100%;

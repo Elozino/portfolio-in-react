@@ -37,6 +37,10 @@ header img {
   background-color: none;
 }
 
+.theme {
+  cursor: pointer;
+}
+
 @media screen and (max-width: 786px) {
   header {
     padding: 0px 27px;
@@ -75,8 +79,8 @@ header img {
     margin-bottom: 20px;
     border: 1px dotted #d6fcff;
   }
-  .header-nav ul li:hover{
-      background-color: black;
+  .header-nav ul li:hover {
+    background-color: black;
   }
   .theme {
     display: none;
@@ -85,6 +89,7 @@ header img {
     display: block;
     background-color: transparent;
     border: none;
+    cursor: pointer;
   }
   .react-icons {
     font-size: 20px;
