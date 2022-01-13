@@ -9,10 +9,10 @@ function Header() {
   const handleClick = () => setClick(!click);
 
   const theme = () => {
-       click
-         ? document.body.classList.remove("light")
-         : document.body.classList.add("light");
-      setClick(!click);
+    click
+      ? document.body.classList.remove("light")
+      : document.body.classList.add("light");
+    setClick(!click);
   };
 
   return (
@@ -21,7 +21,11 @@ function Header() {
         <a href="./Home.jsx">
           <img src={BrandLogo} alt="brand-logo" />
         </a>
-        <div className="theme" title="Change theme" onClick={theme}>
+        <div
+          className={click ? "theme" : "theme active"}
+          title="Change theme"
+          onClick={theme}
+        >
           {click ? <FaRegLightbulb /> : <FaLightbulb />}
         </div>
         <nav className={click ? "header-nav active" : "header-nav"}>
