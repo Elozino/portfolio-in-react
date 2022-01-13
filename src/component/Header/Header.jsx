@@ -10,8 +10,8 @@ function Header() {
 
   const theme = () => {
        click
-         ? document.body.classList.add("light")
-         : document.body.classList.remove("light");
+         ? document.body.classList.remove("light")
+         : document.body.classList.add("light");
       setClick(!click);
   };
 

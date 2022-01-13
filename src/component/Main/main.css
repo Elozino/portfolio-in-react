@@ -4,6 +4,7 @@ main{
     align-items: center;
     padding: 0px 70px;
     height: calc(100vh - 70px);
+    transition: all 2s ease-in;
 }
 
 .main-body{
@@ -16,7 +17,6 @@ main{
 .greet{
     font-size: 5vw;
     font-weight: 500;
-            
 }
 
 .main-body h2{
