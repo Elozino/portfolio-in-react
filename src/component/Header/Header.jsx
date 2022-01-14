@@ -11,8 +11,8 @@ function Header() {
 
   const theme = () => {
     themeIcon
-      ? document.body.classList.remove("light")
-      : document.body.classList.add("light");
+      ? document.body.classList.add("light")
+      : document.body.classList.remove("light");
       setThemeIcon(!themeIcon);
   };
 
@@ -31,16 +31,16 @@ function Header() {
         </div>
         <nav className={click ? "header-nav " : "header-nav active"}>
           <ul>
-            <li>
+            <li onClick={handleClick}>
               <a href="/">&lt;HOME &#47;&gt;</a>
             </li>
-            <li>
+            <li onClick={handleClick}>
               <a href="#about">&lt;ABOUT &#47;&gt;</a>
             </li>
-            <li>
+            <li onClick={handleClick}>
               <a href="#project">&lt;PROJECT &#47;&gt;</a>
             </li>
-            <li>
+            <li onClick={handleClick}>
               <a href="#contact">&lt;CONTACT &#47;&gt;</a>
             </li>
           </ul>
