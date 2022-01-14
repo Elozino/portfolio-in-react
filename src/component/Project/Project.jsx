@@ -16,8 +16,8 @@ function Project() {
                 <ProjectLayout {...projectSix}/>
             </div>
             <div className="btn-right">
-                <a href="./AllProject.jsx">
-                    <button className="project-btn">All Project</button>
+                <a href="/">
+                    <button className="project-btn" onClick={()=> alert("Work in progress")}>All Project</button>
                 </a>
             </div>
         </div>
