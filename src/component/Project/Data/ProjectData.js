@@ -64,12 +64,6 @@ export const projectSix = {
 
 
 
-
-
-
-
-
-
 export const project7 = {
   projectName: "Todo App",
   projectTool: ["REACT", "TYPESCRIPT"],
