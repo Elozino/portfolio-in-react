@@ -1,18 +1,15 @@
-import Header from "./component/Header/Header";
-import Main from "./component/Main/Main";
-import Project from "./component/Project/Project";
-import Contact from "./component/Contact/Contact";
-import Footer from "./component/Footer/Footer";
-
+import React from "react";
+import AllProjects from "./component/Project/AllProjects"
+import { Route, Routes } from "react-router-dom";
+import Home from "./component/Home";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Main />
-      <Project />
-      <Contact />
-      <Footer />
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route path="/projects" element={<AllProjects />} />
+      </Routes>
     </div>
   );
 }

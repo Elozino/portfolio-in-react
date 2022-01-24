@@ -14,26 +14,37 @@ a {
 }
 
 .project-section {
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+  gap: 50px;
+  margin-top: 50px;
 }
 
 .project-card {
   border-radius: 10px;
   background-color: #272626c4;
   flex: 1;
-  margin-top: 50px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+  z-index: 3;
 }
 
 .project-card img {
-  width: 400px;
+  width: 100%;
   object-fit: cover;
   border-radius: 10px;
 }
 
 .project-description {
   padding: 20px;
+  width: '100%';
+}
+
+.description{
+  width: 100%;
 }
 
 .project-title {

@@ -1,18 +1,20 @@
-import React from 'react'
+import React from "react";
 
 function ProjectLayout({
-    projectName, projectDesc, projectImage, projectAlt, projectTool, liveSite
+  projectName,
+  projectDesc,
+  projectImage,
+  projectAlt,
+  projectTool,
+  liveSite,
 }) {
-
-    return (
-      <a
-        href={liveSite}
-        target="_blank"
-        rel="noreferrer"
-        style={{ textDecoration: "white" }}
-      >
-        <div className="project-card">
-          <img src={projectImage} alt={projectAlt} />
+  return (
+    <>
+      <div className="project-card">
+        <a href={liveSite} target="_blank" rel="noreferrer" className="box">
+          <div className="img-box">
+            <img src={projectImage} alt={projectAlt} />
+          </div>
           <div className="project-description">
             <div className="project-title">
               <h1>{projectName}</h1>
@@ -22,11 +24,12 @@ function ProjectLayout({
                 })}
               </ul>
             </div>
-            <p>{projectDesc}</p>
+            <p className="description">{projectDesc}</p>
           </div>
-        </div>
-      </a>
-    );
+        </a>
+      </div>
+    </>
+  );
 }
 
-export default ProjectLayout
+export default ProjectLayout;
