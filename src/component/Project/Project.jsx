@@ -8,6 +8,8 @@ import {
   projectFour,
   projectFive,
   projectSix,
+  project1,
+  project2,
 } from "./Data/ProjectData";
 import { Link } from "react-router-dom";
 
@@ -16,6 +18,8 @@ function Project() {
     <div className="section" id="project">
       <h1 className="heading">Projects</h1>
       <div className="project-section">
+        <ProjectLayout {...project1} />
+        <ProjectLayout {...project2} />
         <ProjectLayout {...projectOne} />
         <ProjectLayout {...projectTwo} />
         <ProjectLayout {...projectThree} />
