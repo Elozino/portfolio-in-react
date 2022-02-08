@@ -7,7 +7,7 @@ import {
   projectTwo,
   projectFour,
   projectFive,
-  projectSix,
+  project9,
   project1,
   project2,
 } from "./Data/ProjectData";
@@ -18,6 +18,7 @@ function Project() {
     <div className="section" id="project">
       <h1 className="heading">Projects</h1>
       <div className="project-section">
+        <ProjectLayout {...project9} />
         <ProjectLayout {...project1} />
         <ProjectLayout {...project2} />
         <ProjectLayout {...projectOne} />
@@ -25,7 +26,6 @@ function Project() {
         <ProjectLayout {...projectThree} />
         <ProjectLayout {...projectFour} />
         <ProjectLayout {...projectFive} />
-        <ProjectLayout {...projectSix} />
       </div>
       <div className="btn-right">
         {/* // onClick={()=> alert("Work in progress")} */}

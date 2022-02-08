@@ -10,6 +10,7 @@ import EMART from "../Assets/EMART.png"
 import MORTY from "../Assets/MORTY.png"
 import TESTIMONIALUI from "../Assets/TESTIMONIALUI.png"
 import CALC from "../Assets/CALC.png"
+import BlogV1 from "../Assets/Blog-v1.png"
 
 export const projectOne = {
   projectName: "Room Homepage",
@@ -60,17 +61,13 @@ export const projectSix = {
   on: "https://grid-testimonial-roan.vercel.app/",
 };
 
-
-
-
-
-export const project7 = {
-  projectName: "Todo App",
-  projectTool: ["REACT", "TYPESCRIPT"],
-  projectDesc: "Todo App built with typescript",
-  projectImage: RockPaperScissors,
-  projectAlt: "Todo App",
-  liveSite: "https://zrock-paper-scissors.netlify.app/",
+export const project1 = {
+  projectName: "EMART",
+  projectTool: ["HTML", "BOOTSRAP", "JS", "REACT"],
+  projectDesc: "E-commerce Website",
+  projectImage: EMART,
+  projectAlt: "E-commerce Website",
+  liveSite: "https://emart-one.vercel.app/",
 };
 export const project2 = {
   projectName: "Morty App",
@@ -112,19 +109,30 @@ export const project6 = {
   projectAlt: "Mental health landing page",
   liveSite: "https://zmentalhealth.netlify.app/",
 };
-export const project1 = {
-  projectName: "EMART",
-  projectTool: ["HTML", "BOOTSRAP", "JS", "REACT"],
-  projectDesc: "E-commerce Website",
-  projectImage: EMART,
-  projectAlt: "E-commerce Website",
-  liveSite: "https://emart-one.vercel.app/",
+export const project7 = {
+  projectName: "Todo App",
+  projectTool: ["REACT", "TYPESCRIPT"],
+  projectDesc: "Todo App built with typescript",
+  projectImage: RockPaperScissors,
+  projectAlt: "Todo App",
+  liveSite: "https://zrock-paper-scissors.netlify.app/",
 };
 export const project8 = {
   projectName: "TESTIMONIAL PROFILE",
   projectTool: ["HTML", "CSS"],
   projectDesc: "Testimonial Page built with CSS Grid",
   projectImage: TESTIMONIALUI,
-  projectAlt: "rock  paper scissors",
+  projectAlt: "TESTIMONIALUI",
+  liveSite: "https://grid-testimonial-roan.vercel.app/",
+};
+
+
+//Valid Projects
+export const project9 = {
+  projectName: "Blog App",
+  projectTool: ["REACT", "TAILWIND CSS", "FIREBASE"],
+  projectDesc: "A CRUD Blog App",
+  projectImage: BlogV1,
+  projectAlt: "Blog App",
   liveSite: "https://grid-testimonial-roan.vercel.app/",
 };

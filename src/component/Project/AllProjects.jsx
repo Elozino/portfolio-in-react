@@ -17,6 +17,7 @@ import {
   project5,
   project6,
   project8,
+  project9,
 } from "./Data/ProjectData";
 
 function AllProjects() {
@@ -29,6 +30,7 @@ function AllProjects() {
       <div className="section" id="project">
         <h1 className="heading">All Projects</h1>
         <div className="project-section">
+          <ProjectLayout {...project9} />
           <ProjectLayout {...project1} />
           <ProjectLayout {...project2} />
           <ProjectLayout {...projectOne} />
