@@ -134,5 +134,5 @@ export const project9 = {
   projectDesc: "A CRUD Blog App",
   projectImage: BlogV1,
   projectAlt: "Blog App",
-  liveSite: "https://grid-testimonial-roan.vercel.app/",
+  liveSite: "https://blog-app-v1.vercel.app/",
 };
