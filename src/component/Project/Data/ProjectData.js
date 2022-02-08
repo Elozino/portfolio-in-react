@@ -63,7 +63,7 @@ export const projectSix = {
 
 export const project1 = {
   projectName: "EMART",
-  projectTool: ["HTML", "BOOTSRAP", "JS", "REACT"],
+  projectTool: ["REACT","REDUX", "BOOTSRAP"],
   projectDesc: "E-commerce Website",
   projectImage: EMART,
   projectAlt: "E-commerce Website",
