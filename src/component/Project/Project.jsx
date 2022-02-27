@@ -3,7 +3,7 @@ import "./project.css";
 import ProjectLayout from "./Card/ProjectLayout";
 import {
   projectOne,
-  projectThree,
+  projectFive,
   projectTwo,
   projectFour,
   project10,
@@ -24,7 +24,7 @@ function Project() {
         <ProjectLayout {...project2} />
         <ProjectLayout {...projectOne} />
         <ProjectLayout {...projectTwo} />
-        <ProjectLayout {...projectThree} />
+        <ProjectLayout {...projectFive} />
         <ProjectLayout {...projectFour} />
       </div>
       <div className="btn-right">
