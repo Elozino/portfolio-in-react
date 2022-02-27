@@ -6,7 +6,7 @@ import {
   projectThree,
   projectTwo,
   projectFour,
-  projectFive,
+  project10,
   project9,
   project1,
   project2,
@@ -18,6 +18,7 @@ function Project() {
     <div className="section" id="project">
       <h1 className="heading">Projects</h1>
       <div className="project-section">
+        <ProjectLayout {...project10} />
         <ProjectLayout {...project9} />
         <ProjectLayout {...project1} />
         <ProjectLayout {...project2} />
@@ -25,7 +26,6 @@ function Project() {
         <ProjectLayout {...projectTwo} />
         <ProjectLayout {...projectThree} />
         <ProjectLayout {...projectFour} />
-        <ProjectLayout {...projectFive} />
       </div>
       <div className="btn-right">
         {/* // onClick={()=> alert("Work in progress")} */}

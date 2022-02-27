@@ -4,20 +4,22 @@ import TodoList from "../Assets/todo-img.png";
 import EasyBank from "../Assets/EasyBank-img.png";
 import RockPaperScissors from "../Assets/Rock-paper-scissors-img.png";
 import Fylo from "../Assets/huddle.png";
-import Mental from "../Assets/Mental.png"
-import NFTUI from "../Assets/NFTUI.png"
-import EMART from "../Assets/EMART.png"
-import MORTY from "../Assets/MORTY.png"
-import TESTIMONIALUI from "../Assets/TESTIMONIALUI.png"
-import CALC from "../Assets/CALC.png"
-import BlogV1 from "../Assets/Blog-v1.png"
+import Mental from "../Assets/Mental.png";
+import NFTUI from "../Assets/NFTUI.png";
+import EMART from "../Assets/EMART.png";
+import MORTY from "../Assets/MORTY.png";
+import TESTIMONIALUI from "../Assets/TESTIMONIALUI.png";
+import CALC from "../Assets/CALC.png";
+import BlogV1 from "../Assets/Blog-v1.png";
+import TsShoppingCart from "../Assets/TsShoppingCart.png";
 
 export const projectOne = {
   projectName: "Room Homepage",
   projectTool: ["HTML", "CSS", "JAVASCRIPT"],
   projectDesc: "A hotel mockup built from FrontendMentor ",
   projectImage: roomHomepage,
-  projectAlt: "room-homepage",  liveSite: "https://elozino.github.io/room-homepage/",
+  projectAlt: "room-homepage",
+  liveSite: "https://elozino.github.io/room-homepage/",
 };
 export const projectTwo = {
   projectName: "Bookmark",
@@ -63,7 +65,7 @@ export const projectSix = {
 
 export const project1 = {
   projectName: "EMART",
-  projectTool: ["REACT","REDUX", "BOOTSRAP"],
+  projectTool: ["REACT", "REDUX", "BOOTSRAP"],
   projectDesc: "E-commerce Website",
   projectImage: EMART,
   projectAlt: "E-commerce Website",
@@ -126,7 +128,6 @@ export const project8 = {
   liveSite: "https://grid-testimonial-roan.vercel.app/",
 };
 
-
 //Valid Projects
 export const project9 = {
   projectName: "Blog App",
@@ -135,4 +136,19 @@ export const project9 = {
   projectImage: BlogV1,
   projectAlt: "Blog App",
   liveSite: "https://blog-app-v1.vercel.app/",
+};
+
+export const project10 = {
+  projectName: "Shopping Cart",
+  projectTool: [
+    "React",
+    "TypeScript",
+    "Styled Components",
+    "MUI",
+    "React Query",
+  ],
+  projectDesc: "Shopping Cart built with React and Typescript",
+  projectImage: TsShoppingCart,
+  projectAlt: "Shopping Cart",
+  liveSite: "https://shopping-cart-elozino.vercel.app/",
 };
