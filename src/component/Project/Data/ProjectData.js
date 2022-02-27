@@ -141,9 +141,7 @@ export const project9 = {
 export const project10 = {
   projectName: "Shopping Cart",
   projectTool: [
-    "React",
-    "TypeScript",
-    "Styled Components",
+    "React TS",
     "MUI",
     "React Query",
   ],

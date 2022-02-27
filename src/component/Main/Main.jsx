@@ -19,7 +19,7 @@ function Main() {
           products that brings value.
         </p>
         <a
-          href="https://drive.google.com/file/d/1QygqB7JyiDxfuov_hSmZ_HB6GS2cohzK/view?usp=sharing"
+          href="/ElozinoResume.pdf"
           download="Elozino's CV"
         >
           <button className="main-btn">DOWNLOAD CV</button>
